@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_layouts_headers",
+  "info": {
+    "displayName": "Header"
+  },
+  "options": {},
+  "attributes": {
+    "navigations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::navigation.navigation"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "component",
+      "component": "elements.logo",
+      "repeatable": false,
+      "required": true
+    },
+    "facultyWork": {
+      "type": "component",
+      "component": "elements.link",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

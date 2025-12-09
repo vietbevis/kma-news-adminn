@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_quick_links",
+  "info": {
+    "displayName": "Quick Links"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "navigations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::navigation.navigation"
+    }
+  },
+  "config": {}
+}

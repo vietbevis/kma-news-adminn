@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_elements_copy_rights",
+  "info": {
+    "displayName": "Copy Right"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "component": "elements.link",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

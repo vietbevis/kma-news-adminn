@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subject_types",
+  "info": {
+    "singularName": "subject-type",
+    "pluralName": "subject-types",
+    "displayName": "Subject Type"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "type": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    },
+    "color": {
+      "type": "uid",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true,
+      "default": "#EF4444",
+      "regex": "^#(?:[0-9A-Fa-f]{3}|[0-9A-Fa-f]{6})$"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_elements_contacts",
+  "info": {
+    "displayName": "Contact"
+  },
+  "options": {},
+  "attributes": {
+    "location": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email"
+    },
+    "googleMap": {
+      "type": "text"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "socialLinks": {
+      "type": "component",
+      "component": "elements.social-links",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

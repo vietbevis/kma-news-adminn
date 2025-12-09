@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_elements_social_links",
+  "info": {
+    "displayName": "Social links"
+  },
+  "options": {},
+  "attributes": {
+    "platform": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "Twitter",
+        "Facebook",
+        "LinkedIn",
+        "Instagram",
+        "Github",
+        "Youtube"
+      ]
+    },
+    "link": {
+      "type": "component",
+      "component": "elements.link",
+      "repeatable": false,
+      "required": true
+    }
+  },
+  "config": {}
+}

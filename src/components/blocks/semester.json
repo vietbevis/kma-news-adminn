@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_blocks_semesters",
+  "info": {
+    "displayName": "Semester"
+  },
+  "options": {},
+  "attributes": {
+    "semester": {
+      "type": "integer",
+      "required": true
+    },
+    "subjects": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::subject.subject"
+    }
+  },
+  "config": {}
+}
